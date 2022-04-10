@@ -16,11 +16,7 @@
 #include <set>
 #include <unordered_map>
 #include <unordered_set>
-#pragma GCC optimize ("O2")
-#pragma GCC target ("avx,avx2,fma")
-#pragma GCC optimize("unroll-loops")
-#include <ext/pb_ds/assoc_container.hpp>
-using namespace __gnu_pbds;
+
 using namespace std;
 typedef pair<int, int> pii;
 typedef pair<int, string> pis;
